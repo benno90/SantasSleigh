@@ -1,0 +1,29 @@
+# gitgnore for Sants stolen sleigh challenge
+
+# binaries
+build/
+# dist folder
+/dist/
+# private section of netbeans
+nbproject/private/
+# shell script -> system dependent
+
+#html solutions
+*.html
+
+#gnuplots
+*.eps
+
+#csv files
+#*.csv
+#all files in plot folder
+gnuplot/plot/*.csv
+gnuplot/solutions/*.csv
+gnuplot/solutions/*/*.csv
+gnuplot/solutions/*/*/*.csv
+submissionFiles/*.csv
+# ods lock
+.~lock*
+
+# swap files
+*.swp
